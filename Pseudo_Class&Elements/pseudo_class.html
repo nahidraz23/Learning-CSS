@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+    <br>
+    <header>
+            <h1>Pseudo-class</h1>
+    </header>
+    <hr>
+    <main>
+        <p class="headings center">What is pseudo-class?</p>
+        <p>A CSS <span class="highlight txtdeco">pseudo-class</span> is a keyword added to a selector that specifies a
+            special state of the selected
+            element(s).</p>
+        <p><span class="highlight">For example</span>, the pseudo-class :hover can be used to select a button when a
+            user's pointer hovers over the button and this selected button can then be styled.</p>
+        <hr><br>
+        <p class="headings center">Syntax For Writing Psedudo-class</p><br>
+        <img src="/Pseudo_Class&Elements/images/pseudo-class.png" alt="pseudo-class Syntax" style="width:50%"><br>
+        <hr><br>
+        <table>
+            <h2 class="headings center">Most Used Pseudo-classes</h2><br>
+            <tr>
+                <th>Selector</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>:active</td>
+                <td>:active</td>
+                <td>Selects the <span class="highlight txtdeco">active</span> link</td>
+            </tr>
+            <tr>
+                <td>:hover</td>
+                <td>a:hover</td>
+                <td>Selects the <span class="highlight txtdeco">links</span> on mouse over</td>
+            </tr>
+            <tr>
+                <td>:link</td>
+                <td>a:link</td>
+                <td>Selects all <span class="highlight txtdeco">unvisited links</span></td>
+            </tr>
+            <tr>
+                <td>:root</td>
+                <td>root</td>
+                <td>Selects the <span class="highlight txtdeco">document's root</span> element</td>
+            </tr>
+            <tr>
+                <td>:target</td>
+                <td>#news:target</td>
+                <td>Selects the <span class="highlight txtdeco">current active</span> #news element <span
+                        class="highlight txtdeco">(clicked on a URL containing that anchor name)</span></td>
+            </tr>
+            <tr>
+                <td>:visited</td>
+                <td>a:visited</td>
+                <td>Selects all <span class="highlight txtdeco">visited links</span></td>
+            </tr>
+            <tr>
+                <td>:required</td>
+                <td>input:required</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with a <span
+                        class="highlight txtdeco">"required"</span> attribute specified</td>
+            </tr>
+            <tr>
+                <td>:focus</td>
+                <td>input:focus</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> element that has <span
+                        class="highlight txtdeco">focus</span></td>
+            </tr>
+            <tr>
+                <td>:in-range</td>
+                <td>input:in-range</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with a value within a <span
+                        class="highlight txtdeco">specified range</span></td>
+            </tr>
+            <tr>
+                <td>:optional</td>
+                <td>input:optional</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with <span
+                        class="highlight txtdeco">no "required" attribute</span></td>
+            </tr>
+            <tr>
+                <td>:out-of-range</td>
+                <td>input:out-of-range</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with a <span
+                        class="highlight txtdeco">value outside a specified range</span></td>
+            </tr>
+        </table><br>
+        <hr>
+        <table>
+            <h2 class="headings center">Psedudo-classes for < Input > </h2><br>
+            <tr>
+                <th>Selector</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>:checked</td>
+                <td>input:checked</td>
+                <td>Selects every checked <span class="highlight txtdeco">input</span> element</td>
+            </tr>
+            <tr>
+                <td>:disabled</td>
+                <td>input:disabled</td>
+                <td>Selects every disabled <span class="highlight txtdeco">input</span> element</td>
+            </tr>
+            <tr>
+                <td>:enabled</td>
+                <td>input:enabled</td>
+                <td>Selects every enabled <span class="highlight txtdeco">input</span> element</td>
+            </tr>
+            
+            <tr>
+                <td>:invalid</td>
+                <td>input:invalid</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with an <span
+                        class="highlight txtdeco">invalid value</span></td>
+            </tr>
+            
+            <tr>
+                <td>:read-only</td>
+                <td>input:read-only</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with a <span
+                        class="highlight txtdeco">"readonly"</span> attribute specified</td>
+            </tr>
+            <tr>
+                <td>:read-write</td>
+                <td>input:read-write</td>
+                <td>Selects the <span class="highlight txtdeco">input</span> elements with <span
+                        class="highlight txtdeco">no "readonly"</span> attribute</td>
+            </tr>
+            
+            <tr>
+                <td>:valid</td>
+                <td>input:valid</td>
+                <td>Selects all <span class="highlight txtdeco">input</span> elements with a <span
+                        class="highlight txtdeco">valid value</span></td>
+            </tr>
+        </table><br>
+        <hr>
+        <table>
+            <h2 class="headings center">Psedudo-classes for < p > element</h2><br>
+            <tr>
+                <th>Selector</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>:empty</td>
+                <td>p:empty</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that has <span class="highlight txtdeco">no children</span></td>
+            </tr>
+            <tr>
+                <td>:first-child</td>
+                <td>p:first-child</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> elements that is the <span class="highlight txtdeco">first child</span> of its parent</td>
+            </tr>
+            <tr>
+                <td>:first-of-type</td>
+                <td>p:first-of-type</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the first <span class="highlight txtdeco">
+                        < p>
+                    </span> element of its parent</td>
+            </tr>
+            <tr>
+                <td>:lang(language)</td>
+                <td>p:lang(it)</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element with a lang attribute value <span class="highlight txtdeco">starting with
+                        "it"</span></td>
+            </tr>
+            <tr>
+                <td>:last-child</td>
+                <td>p:last-child</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> elements that is the <span class="highlight txtdeco">last child of its parent</span></td>
+            </tr>
+            <tr>
+                <td>:last-of-type</td>
+                <td>p:last-of-type</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> elements that is the <span class="highlight txtdeco">
+                        < p>
+                    </span> element of its parent</td>
+            </tr>
+            <tr>
+                <td>:not(selector)</td>
+                <td>:not(p)</td>
+                <td>Selects every element that is not a <span class="highlight txtdeco">
+                        < p>
+                    </span> element</td>
+            </tr>
+            <tr>
+                <td>:nth-child(n)</td>
+                <td>p:nth-child(2)</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the <span class="highlight txtdeco">second child of its parent</span></td>
+            </tr>
+            <tr>
+                <td>:nth-last-child(n)</td>
+                <td>p:nth-last-child(2)</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the <span class="highlight txtdeco">second child of its parent</span>,
+                    counting from the <span class="highlight txtdeco">last child</span></td>
+            </tr>
+            <tr>
+                <td>:nth-last-of-type(n)</td>
+                <td>p:nth-last-of-type(2)</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the second <span class="highlight txtdeco">
+                        < p>
+                    </span> element of its parent, counting from the <span class="highlight txtdeco">last child</span>
+                </td>
+            </tr>
+            <tr>
+                <td>:nth-of-type(n)</td>
+                <td>p:nth-of-type(2)</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the second <span class="highlight txtdeco">
+                        < p>
+                    </span> element of its parent</td>
+            </tr>
+            <tr>
+                <td>:only-of-type</td>
+                <td>p:only-of-type</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the only <span class="highlight txtdeco">
+                        < p>
+                    </span> element of its parent</td>
+            </tr>
+            <tr>
+                <td>:only-child</td>
+                <td>p:only-child</td>
+                <td>Selects every <span class="highlight txtdeco">
+                        < p>
+                    </span> element that is the only child of its parent</td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+
+</html>
