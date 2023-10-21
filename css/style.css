@@ -42,11 +42,34 @@ button:hover {
     border-radius: 5px;
 }
 
+h2 {
+    text-align: center;
+ }
+
  p {
     line-height: 1.5; 
     word-spacing: 0.2em;
  }
 
- h2 {
+ ol {
+    list-style-type: lower-alpha;
+ }
+
+ ul {
+    list-style-type: upper-roman;
     text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+ }
+
+ ul li:nth-child(even) {
+    color: red;
+ }
+
+ ul ::marker {
+    font-family: fantasy;
+    color: green;
+    font-size: 1.5em;
+    content: "only $5 >>";
  }
