@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 1rem;
+}
+
+li:hover, li:focus {
+    text-decoration: underline;
+}

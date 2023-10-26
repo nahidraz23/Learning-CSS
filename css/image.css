@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    font-family: monospace;
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: linear-gradient(steelblue, white);
+
+}
+
+.container {
+    background-image: url("https://www.blackstone.com/wp-content/uploads/sites/2/2023/07/PatternRecognition_Background_Ge.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero {
+    border: 5px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+    background-color: hsla(118, 23%, 29%, 0.605);
+}
+
+h1 {
+    width: 40%;
+    font-size: 500%;
+    color: rgb(245, 246, 245);
+    text-shadow: 3px 3px rgba(255, 0, 0, 0.405);
+    background-color: hsla(0, 0%, 0%, 0.399);
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+.profile-pic-figure {
+    width: 30%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double rgb(244, 243, 245);
+    border-radius: 50%;
+}
+
+
+/* .example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+} */
+
+.clip {
+    font-weight: 800;
+    font-size: 16rem;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/natures-beauty-reflected-tranquil-mountain-waters-generative-ai_188544-7867.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.203);
+}
+

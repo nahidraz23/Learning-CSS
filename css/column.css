@@ -1,0 +1,31 @@
+body {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.columns {
+    /* column-count: 4;
+    column-width: 250px; */
+
+    columns: 4 250px;
+    column-rule: 3px solid red;
+    column-gap: 2rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    background-color: black;
+    color: white;
+    break-inside: avoid;
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color:burlywood;
+    column-span: all;
+}
